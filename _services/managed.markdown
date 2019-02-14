@@ -7,7 +7,6 @@ numbers:
 - deux
 - trois
 - quatre
-- 
 obj:
   firstName: Maxence
   lastName: BESNARD
