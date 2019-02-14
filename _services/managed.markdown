@@ -19,6 +19,10 @@ Content ..
 
 Contact us
 
+{% for obj in site.managed %}
+
 {{ obj.nom }} {{ obj.prenom }}
+
+{%endfor%}
 
 test
