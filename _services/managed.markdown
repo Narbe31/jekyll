@@ -2,7 +2,7 @@
 title: Managed
 date: 2019-02-14 14:16:00 Z
 collectionKey: Collection value
-list:
+numbers:
 - un
 - deux
 - trois
@@ -23,3 +23,9 @@ Content ..
 Contact us
 
 KEY : {{ page.collectionKey }}
+
+{% for number in page.numbers %}
+
+    number : {{ number }}
+
+{% endfor %}
