@@ -19,4 +19,4 @@ Content ..
 
 Contact us
 
-Collection key : {{ page.collectionKey }}
+KEY : {{ page.collectionKey }}
