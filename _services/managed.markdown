@@ -33,4 +33,5 @@ KEY : {{ page.collectionKey }}
 
 Object :
 
-{{ page.obj.firstName }} {{ page.obj.lastName }}
+{{ page.obj.firstName }} {{ page.obj.lastName }}\
+{{ page.obj.company }}
