@@ -7,6 +7,6 @@ Services :
 
 {% for service in site.services %}
 
-{{ service }}
+    {{ service }}
 
 {% endfor %}
