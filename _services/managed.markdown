@@ -11,6 +11,7 @@ obj:
   firstName: Maxence
   lastName: BESNARD
   image: "/uploads/capgemini-logo.jpg"
+  isFeatured: true
 ---
 
 # Provisioning packages
@@ -34,4 +35,5 @@ KEY : {{ page.collectionKey }}
 Object :
 
 {{ page.obj.firstName }} {{ page.obj.lastName }}\
-<img src="{{ page.obj.image }}" />
+<img src="{{ page.obj.image }}" />\
+{{ page.obj.isFeatured }}
