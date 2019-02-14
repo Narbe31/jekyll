@@ -19,6 +19,6 @@ Content ..
 
 Contact us
 
-{{ obj.nom }} {{ obj.prenom }
+{{ obj.nom }} {{ obj.prenom }}
 
 test
