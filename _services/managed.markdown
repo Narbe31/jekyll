@@ -10,7 +10,7 @@ numbers:
 obj:
   firstName: Maxence
   lastName: BESNARD
-  company: "/uploads/capgemini-logo.jpg"
+  image: "/uploads/capgemini-logo.jpg"
 ---
 
 # Provisioning packages
@@ -34,4 +34,4 @@ KEY : {{ page.collectionKey }}
 Object :
 
 {{ page.obj.firstName }} {{ page.obj.lastName }}\
-<img src="{{ page.obj.company }}" />
+<img src="{{ page.obj.image }}" />
