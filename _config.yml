@@ -10,8 +10,8 @@ collections:
     output: true
 email: m.besnard95@gmail.com
 description: This is my awesome website. Enjoy !
-baseurl: ''
-url: ''
+baseurl: 
+url: 
 twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown
