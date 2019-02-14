@@ -10,10 +10,13 @@ obj:
 ---
 
 # Provisioning packages
-## Titre 
+
+## Titre
 
 Content ..
 ..
 ..
 
 Contact us
+
+{{ obj.nom }} {{ obj.prenom }}
