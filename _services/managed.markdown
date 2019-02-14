@@ -1,7 +1,7 @@
 ---
 title: Managed
 date: 2019-02-14 14:16:00 Z
-Collection key: Collection value
+collectionKey: Collection value
 list:
 - un, deux,trois, quatre
 obj:
@@ -19,10 +19,4 @@ Content ..
 
 Contact us
 
-{% for obj in site.managed %}
-
-{{ obj.nom }} {{ obj.prenom }}
-
-{%endfor%}
-
-test
+Collection key : {{ page.collectionKey }}
