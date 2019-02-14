@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  services:
+    title: services
+    output: true
 email: m.besnard95@gmail.com
 description: This is my awesome website. Enjoy !
 baseurl: 
