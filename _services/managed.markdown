@@ -10,6 +10,7 @@ numbers:
 obj:
   firstName: Maxence
   lastName: BESNARD
+  company: "/uploads/capgemini-logo.png"
 ---
 
 # Provisioning packages
