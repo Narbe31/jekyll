@@ -8,8 +8,8 @@ numbers:
 - trois
 - quatre
 obj:
-  nom: BESNARD
-  prenom: Maxence
+  lastName: BESNARD
+  firstName: Maxence
 ---
 
 # Provisioning packages
@@ -29,3 +29,7 @@ KEY : {{ page.collectionKey }}
     number : {{ number }}
 
 {% endfor %}
+
+Object :
+
+{{ page.obj.firstName }} {{ page.obj.lastName }}
