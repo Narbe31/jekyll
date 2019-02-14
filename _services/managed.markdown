@@ -34,4 +34,4 @@ KEY : {{ page.collectionKey }}
 Object :
 
 {{ page.obj.firstName }} {{ page.obj.lastName }}\
-{{ page.obj.company }}
+<img src="{{ page.obj.company }}" />
