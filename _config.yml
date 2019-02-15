@@ -2,9 +2,6 @@
 title: My awesome site
 timezone: UTC
 collections:
-  cluster:
-    title: Cluster
-    output: true
   posts:
     title: Posts
     output: true
