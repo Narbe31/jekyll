@@ -3,10 +3,9 @@ title: Mypost
 date: 2019-02-14 13:20:00 Z
 ---
 
-Services : 
+Authors :
 
-{% for service in site.services %}
-
-    {{ service }}
-
+{% assign sorted_authors = site.authors | sort:"position" %}
+{% for author in sorted_authors %}
+  <li>{{ author.title }}</li>
 {% endfor %}
