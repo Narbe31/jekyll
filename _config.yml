@@ -11,6 +11,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  mycollection:
+    title: myCollection
+    output: true
   services:
     title: services
     output: true
